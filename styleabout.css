@@ -1,0 +1,227 @@
+html,body,h4,h5,h6,p,a,div,ul,li{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans',sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+    color: #555;
+ }
+ html{
+    background-color: #252323;
+ }
+ /*Header*/
+ header {
+    width: 100%;
+    height: 190px;
+    border-top: 15px solid red;
+    background: #fff;
+    position: relative;
+ }
+  .logo {
+    width: 350px;
+    height: 100px;
+    position:absolute;
+    top: 10px;
+    left: 30px;
+ }
+ nav{
+    width: 100%;
+    background: black;
+    position:absolute;
+    left: 0;
+    bottom: 0;
+ }
+ nav ul{
+    width: 600px;
+    overflow: auto;
+    margin: 0 auto;
+ }
+ nav ul li {
+    border-right: 1px solid black;
+    float: left;
+    list-style: none;
+ }
+ nav ul li a:link,nav ul li a:visited{
+    display: block;
+    width: 140px;
+    padding: 6px 0;
+    color: #fff;
+    background-color: #a7adb3d5;
+    font-size: 0.8em;
+    text-decoration: none;
+    text-align: center;
+ }
+ nav ul li:last-child{
+    border-right: none;
+ }
+ nav ul li a:hover,nav ul li a:active{
+    background-color: red;
+ }
+ a.current{
+    background-color: #2b2a2a;
+    cursor: default;
+ }
+ /*Header finish*/
+ /*Image*/
+.firstimg{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+ }
+ .team{
+    margin :0 0 10px 20px;
+    padding:7px;
+    float: right;
+ }
+ /*Image finish*/
+
+ /*Main*/
+main{
+    width: 1000px;
+    padding: 40px;
+    bottom: 80px;
+    margin: 0 auto;
+    background-color: #252323;
+ }
+main h1,h2{
+    color: rgb(217, 214, 214);
+}
+
+ main p{
+    color: rgb(173, 166, 166);
+ }
+
+ .video{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+ }
+ h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(234, 226, 226);
+    text-align: center;
+    width: 100%;
+    background: rgb(100, 95, 95);
+    line-height: 60px;
+ }
+ label{
+    color: #b5b5b5;
+ }
+ main ul li{
+margin: 0 40px;
+ }
+
+b{
+    color: rgb(202, 195, 195);
+}
+.tt{
+    width: 250px;
+}
+textarea{
+    width: 250px;
+    height: 150px;
+}
+.button{
+    color: #cdcdcd;
+    background-color: #555;
+}
+.button {
+    margin-right: 30px; /* Adjust the right margin to control the spacing */
+}
+
+
+ /*Main finished*/
+
+ /*Floter*/
+footer {
+    background: black;
+    margin-top: -20px;
+ }
+ footer.address{
+    font-size: 0.75em;
+    line-height: 1.6em;
+    color: #bbb;
+ }
+ footer div.column div.address a{
+    color: #bbb;
+ }
+ footer div.column div.address a:hover{
+    color: white;
+ }
+ footer div.address{
+    color: #bbb;
+ }
+ 
+ footer h4{
+    padding: 10px 0;
+    color: #ddd;
+ }
+ footer {
+    padding-top: 15px;
+    padding-bottom: 60px;
+  }
+ 
+ 
+ footer .columnWrapper {
+    display: flex;
+ }
+ 
+ 
+ footer .columnWrapper {
+    height: auto; /* This will make the height adjust to content */
+ }
+ 
+ 
+ footer .column {
+    width: 180px;
+    padding: 0 0 0 10px;
+    border-right: 2px solid #777;
+ }
+ 
+ 
+ footer .column:last-child {
+    border-right: none;
+ }
+ 
+ footer .columnWrapper {
+    width: 960px;
+    margin: 0 auto; /* Center the columns */
+ }
+ dd{
+    display: block;
+    text-align: center;
+    background-color: black;
+ }
+ /*Floter finished*/
+
+ /*table*/
+ table {
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid #939598;
+    border-collapse: collapse;
+    background: #a6a6a6;
+}
+th {
+    padding: 5px 8px 8px;
+    background-color: #242424;
+    border-right: 1px solid #ccc;
+    color: #fefefe;
+    font-size: .9em;
+    font-weight: 700;
+    text-align: left;
+}
+td {
+    padding: 10px 8px;
+    border: 1px solid #ccc;
+    font-size: .8em;
+    color: #ddd;
+}
+.even {
+    background: #606060;
+}
+
+
+
+
+ /*table*/
